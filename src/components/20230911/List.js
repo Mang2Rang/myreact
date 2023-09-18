@@ -10,9 +10,9 @@ const Title = styled.h1`
   font-size: 2.5rem;
   color: orange;
 `;
-const TitleBlue = styled.Title`
-  color: blue;
-`;
+// const TitleBlue = styled.Title`
+//   color: blue;
+// `;
 
 const Circle = styled.img`
   border-radius: 50%;
