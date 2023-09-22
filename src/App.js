@@ -11,6 +11,11 @@ import { MyRef } from "./components/20230915/MyRef";
 import { MyRouter } from "./components/20230915/MyRouter";
 import { createGlobalStyle } from "styled-components";
 import { GameShop } from "./components/20230918/GameShop";
+import { UseContext } from "./components/20230919/UseContext";
+import { MyMotion1 } from "./components/20230922/MyMotion1";
+import { Gesture } from "./components/20230922/Gesture";
+import { MyMotion2 } from "./components/20230922/MyMotion2";
+import { Test } from "./components/20230922/Test";
 
 const GlobalStyle = createGlobalStyle`
   @font-face {
@@ -35,7 +40,7 @@ export default function App() {
   return (
     <>
       <GlobalStyle />
-      <GameShop />
+      <MyMotion2 />
     </>
   );
 }
